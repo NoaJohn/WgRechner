@@ -1,9 +1,8 @@
 
-package test;
+package mosbach.dhbw.de.wgrechner.dto;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import javax.annotation.Generated;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -12,11 +11,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonPropertyOrder({
-    "token",
-    "password"
-})
-@Generated("jsonschema2pojo")
+
 public class DeleteUserDTO {
 
     @JsonProperty("token")
@@ -56,4 +51,8 @@ public class DeleteUserDTO {
         this.additionalProperties.put(name, value);
     }
 
+    public DeleteUserDTO(String token, String password) {
+        this.token = token;
+        this.password = password;
+    }
 }

@@ -10,21 +10,28 @@
 
     <h1>WG-Rechner</h1>
 
-    <form onsubmit="handleSubmit(event)">
-        <input type="text" id="WG-Name" name="WG Suchen" placeholder="WG-Suchen" maxlength="20"/>
+    <form onsubmit="searchWG(event)">
+        <input type="text" id="WG-Name" name="WG Suchen" placeholder="WG suchen" maxlength="20"/>
     </form>
 
     <div>
-        <button onclick="window.location.href='Subsites/createWG';">WG-Erstellen</button>
-    </div>
+        <button onclick="window.location.href='Subsites/createWG.html';">WG-Erstellen</button>
+    </div></br>
 
-    <from>
-        <input type="text" id="WG-Name" name="WG Suchen" placeholder="WG-Suchen" maxlength="20"/>
-    </from>
 
-    <from>
-        <input type="text" id="WG-Name" name="WG Suchen" placeholder="WG-Suchen" maxlength="20"/>
-    </from>
+    <label>Rechnungen</label></br>
+    <button id="addBill">Rechnung hinzufügen</button></br>
+
+    <button id="editBil">Rechnung bearbeiten</button></br>
+
+    <button id="deleteBill">Rechnung löschen</button></br>
+
+    <label>WG-Settings</label></br>
+    <button id="addRoommate">Mitbewohner hinzufügen</button></br>
+
+    <button id="removeRoommate">Mitbewohner entfernen</button></br>
+
+    <button id="deleteWG">WG löschen</button>
 
 </body>
 </html>

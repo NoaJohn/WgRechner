@@ -17,5 +17,27 @@ public class Commune {
         return "commune"+ (++Commune.communeIdCounter);
     }
 
+    public String getCommuneId() {
+        return communeId;
+    }
 
+    public void setCommuneId(String communeId) {
+        this.communeId = communeId;
+    }
+
+    public int getMaxPeopleNumber() {
+        return maxPeopleNumber;
+    }
+
+    public void setMaxPeopleNumber(int maxPeopleNumber) {
+        this.maxPeopleNumber = maxPeopleNumber;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
 }

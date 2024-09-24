@@ -1,0 +1,14 @@
+mosbach\dhbw\de\wgrechner\WgRechnerBackendApplication.class
+mosbach\dhbw\de\wgrechner\service\UserService.class
+mosbach\dhbw\de\wgrechner\dto\DeleteUserDTO.class
+mosbach\dhbw\de\wgrechner\dto\GetcommuneDTO.class
+mosbach\dhbw\de\wgrechner\dto\AddPersonDTO.class
+mosbach\dhbw\de\wgrechner\model\Commune.class
+mosbach\dhbw\de\wgrechner\dto\AuthTokenDTO.class
+mosbach\dhbw\de\wgrechner\controller\UserController.class
+mosbach\dhbw\de\wgrechner\dto\SingleMessageDTO.class
+mosbach\dhbw\de\wgrechner\controller\AuthController.class
+mosbach\dhbw\de\wgrechner\dto\CreateCommuneDTO.class
+mosbach\dhbw\de\wgrechner\model\User.class
+mosbach\dhbw\de\wgrechner\dto\RegUserDTO.class
+mosbach\dhbw\de\wgrechner\model\Account.class

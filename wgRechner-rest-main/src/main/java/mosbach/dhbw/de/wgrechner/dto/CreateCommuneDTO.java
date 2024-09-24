@@ -1,6 +1,6 @@
 
 package mosbach.dhbw.de.wgrechner.dto;
-
+//WIP Noch keinen Nutzen
 import java.util.LinkedHashMap;
 import java.util.Map;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;

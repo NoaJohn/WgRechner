@@ -8,6 +8,7 @@ public class Commune {
     
     private int maxPeopleNumber;
     private String location;
+// Es fehlen noch activityLog und die UserID oder Hashmap
 
     public Commune(String communeId, int maxPeopleNumber, String location){
         this.communeId = commune.createCommuneID(),

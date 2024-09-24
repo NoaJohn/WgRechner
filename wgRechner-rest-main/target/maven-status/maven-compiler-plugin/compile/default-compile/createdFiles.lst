@@ -9,6 +9,8 @@ mosbach\dhbw\de\wgrechner\controller\UserController.class
 mosbach\dhbw\de\wgrechner\dto\SingleMessageDTO.class
 mosbach\dhbw\de\wgrechner\controller\AuthController.class
 mosbach\dhbw\de\wgrechner\dto\CreateCommuneDTO.class
+mosbach\dhbw\de\wgrechner\service\AuthService.class
 mosbach\dhbw\de\wgrechner\model\User.class
+mosbach\dhbw\de\wgrechner\service\EnvConfig.class
 mosbach\dhbw\de\wgrechner\dto\RegUserDTO.class
 mosbach\dhbw\de\wgrechner\model\Account.class

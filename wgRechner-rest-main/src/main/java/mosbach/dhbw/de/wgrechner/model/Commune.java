@@ -11,7 +11,7 @@ public class Commune {
 // Es fehlen noch activityLog und die UserID oder Hashmap
 
     public Commune(String communeId, int maxPeopleNumber, String location){
-        this.communeId = commune.createCommuneID(),
+        this.communeId = Commune.createCommuneID();
     }
 
     private static synchronized String createCommuneID(){

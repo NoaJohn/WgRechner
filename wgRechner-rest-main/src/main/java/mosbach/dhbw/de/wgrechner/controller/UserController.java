@@ -31,6 +31,13 @@ public class UserController {
         userService.saveUserInHashMap(userExtracted);
         return new ResponseEntity<SingleMessageDTO>(new SingleMessageDTO("User created successfully!"), HttpStatus.OK);
     }
+    /* WIP delete user: brauche Token dafuer
+    @DeleteMapping(
+            consumes = {MediaType.APPLICATION_JSON_VALUE}
+    )
+    public ResponseEntity<?> deleteUser() {
+
+    }*/
 
     //HashMap und dessen User abfragen und anzeigen
     @GetMapping

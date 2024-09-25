@@ -23,6 +23,12 @@ public class UserService {
         userMap.put(user.getUserId(),user);
     }
 
+    //Loescht user aus hashmap bei true
+    public boolean deleteUserInHashMap(String userId) {
+        User removedUser = userMap.remove(userId); //remove(userId) gibt das entfernte objekt zurück, falls nicht existiert ist es null
+        return removedUser != null; // true wenn vorhandenes objekt gelöscht, fales wenn nicht existiert
+    }
+
     //Methode um alle User aus HashMap abzugreifen und in einem String anzuzeigen -> Fürs Debuggen
     public String getAllUsersInHashMap(){
         StringBuilder resultOfHashMap = new StringBuilder(); // StringBuilder zum Speichern der Ausgaben

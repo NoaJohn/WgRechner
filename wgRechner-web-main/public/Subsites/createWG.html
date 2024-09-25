@@ -10,19 +10,27 @@
 
     <h1>WG-Erstellen</h1>
 
-    <form onsubmit="enterName(event)">
-        <input type="text" id="WG-Name" placeholder="Name" maxlength="20"/>
+    <form onsubmit="createWG(event)">
+        <input type="text" id="WG-Name" placeholder="WG-Name" maxlength="20" required />
+        <input type="text" id="WG-Location" placeholder="Ort" maxlength="20" required />
+        <input type="number" id="Max-people-number" placeholder="Maximale Anzahl an Leuten" min="2" max="4" required />
+        <button type="submit">WG erstellen</button>
     </form>
 
-    <form onsubmit="enterLocation(event)">
-        <input type="text" id="WG-Location" placeholder="Ort" maxlength="20"/>
-    </form>
+    <script>
+        function createWG(event) {
+            event.preventDefault(); // Verhindert das Neuladen der Seite
 
-    <form onsubmit="enterMaxPeopleNumber(event)">
-        <input type="number" id="Max-people-number" placeholder="Maximalen Anzahl an Leuten" min="2" max="4"/>
-    </form>
+            wgName = document.getElementById('WG-Name').value;
+            wgLocation = document.getElementById('WG-Location').value;
+            maxPeople = document.getElementById('Max-people-number').value;
 
-    <button id="WGsubmit">WG erstellen</button>
+            // Ansicht im Debugger festgehalten
+            console.log("WG Name:", wgName);
+            console.log("Ort:", wgLocation);
+            console.log("Maximale Anzahl an Leuten:", maxPeople);
+        }
+    </script>
 
 </body>
 </html>

@@ -1,3 +1,23 @@
-#wg-name{
-    color: aqua;
+
+
+#WG-Name {
+    width: 300px;
+    height: 1%;
+    border: 2px solid #1491ff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+#WG-Name::placeholder {
+    color: darkblue;
+}
+
+h1{
+    color:blue;
+}
+
+body {
+    background-color: darkgrey;
 }

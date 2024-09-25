@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>WG Rechner</title>
-        <link rel="stylesheet" href="css/">
+        <link rel="stylesheet" href="../css/createTask.css">
 </head>
 
 <body>
@@ -11,15 +11,15 @@
     <h1>WG-Erstellen</h1>
 
     <form onsubmit="enterName(event)">
-        <input type="text" id="WG-Name" name="WG Suchen" placeholder="Name" maxlength="20"/>
+        <input type="text" id="WG-Name" placeholder="Name" maxlength="20"/>
     </form>
 
     <form onsubmit="enterLocation(event)">
-        <input type="text" id="WG-Name" name="WG Suchen" placeholder="Ort" maxlength="20"/>
+        <input type="text" id="WG-Location" placeholder="Ort" maxlength="20"/>
     </form>
 
     <form onsubmit="enterMaxPeopleNumber(event)">
-        <input type="number" id="WG-Name" name="WG Suchen" placeholder="Maximalen Anzahl an Leuten" min="2" max="4"/>
+        <input type="number" id="Max-people-number" placeholder="Maximalen Anzahl an Leuten" min="2" max="4"/>
     </form>
 
     <button id="WGsubmit">WG erstellen</button>
